@@ -29,9 +29,11 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 [creditos](#Creditos)  
 
 
-[tenologias]:## Tecnologias usadas
+<a name="tenologias"/>
 
-<b name="Bases de infromación"/>
+## Tecnologias usadas
+
+<b name="informacion"/>
 ## Bases de infromación 
     
 <c name="instalar"/>
@@ -51,10 +53,11 @@ Jesus
 
 
 ##### Table of Contents  
-[Headers](#headers)  
+[prueba](#prueba)  
 [Emphasis](#emphasis)  
 ...snip...    
 <a name="headers"/>
-## Headers
+## Prueba
+##emphasis
 
   
