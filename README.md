@@ -24,6 +24,8 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 ##### Tabla de contenidos
 
 - Tecnologias usadas
+  - Frontend
+  - Backend
 
 - Bases de infromación 
 
@@ -38,6 +40,28 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 ## Tecnologias usadas
 
 ## Bases de infromación 
+Se usaron bases de infromacion abiertas de la Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) 
+
+    - Enciclo vida https://enciclovida.mx/
+    
+       Es una plataforma web de consulta creada por la CONABIO, para conocer a las especies y grupos que viven en México. 
+       Integra información que la Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) ha reunido 
+       a través del Sistema Nacional de Información sobre Biodiversidad (SNIB). Reúne infromacion de animales, plantas, 
+       hongos, bacterias y protozoarios, resultado de una colaboración de investigadores mexicanos.
+       
+    -FotoWeb   FotoWeb 8.0 (conabio.gob.mx)
+      
+      Es una base de datos multimedia de uso libre sin fines de lucro de CONABIO.
+    
+    - Infoceanos
+    
+    Infocéanos | Mares | País | Comisión Nacional para el Conocimiento y Uso de la Biodiversidad | (conabio.gob.mx)
+    
+    Una base de metdatos relacionada con la investigacion marina en Mexico.
+
+
+ 
+
 
 ## Como instalar 
 
