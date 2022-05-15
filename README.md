@@ -28,17 +28,6 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 - Tecnologias usadas
   - Frontend
   - Backend
-    - Para el backend se utilizaron las siguientes tecnologías:
-    - MySQL para la base de datos
-    - NodeJS para el servidor y API's
-    - Azure para el despliegue y la base de datos
-      - MySQL en Azure
-        ![MySQL](https://user-images.githubusercontent.com/53630621/168499655-375b5b1b-953b-45d8-8387-f6dd28c45721.jpg)
-      - NodeJS en Azure
-        ![NodeJS](https://user-images.githubusercontent.com/53630621/168499725-f4132300-d526-4983-83ee-0601d95c67fb.jpg)
-    - CI/CD con GitHub y Azure: En este caso el despliegue se esta tomando del siguiente repositorio:
-      - <a href="https://github.com/danielmares32/HackTheOcean-Front">https://github.com/danielmares32/HackTheOcean-Front</a>
-
 - Bases de infromación 
 
 - Como instalar 
@@ -50,6 +39,22 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 
 
 ## Tecnologias usadas
+
+### Frontend
+
+### Backend
+
+- Backend
+    - Para el backend se utilizaron las siguientes tecnologías:
+    - MySQL para la base de datos
+    - NodeJS para el servidor y API's
+    - Azure para el despliegue y la base de datos
+      - MySQL en Azure
+        ![MySQL](https://user-images.githubusercontent.com/53630621/168499655-375b5b1b-953b-45d8-8387-f6dd28c45721.jpg)
+      - NodeJS en Azure
+        ![NodeJS](https://user-images.githubusercontent.com/53630621/168499725-f4132300-d526-4983-83ee-0601d95c67fb.jpg)
+    - CI/CD con GitHub y Azure: En este caso el despliegue se esta tomando del siguiente repositorio:
+      - <a href="https://github.com/danielmares32/HackTheOcean-Front">https://github.com/danielmares32/HackTheOcean-Front</a>
 
 ## Bases de infromación 
 
