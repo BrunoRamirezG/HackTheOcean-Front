@@ -23,9 +23,13 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 ---
 ##### Tabla de contenidos
 ⋅⋅*Tecnologias usadas
+
 ⋅⋅*Bases de infromación 
+
 ⋅⋅*Como instalar 
+
 ⋅⋅*Como usar
+
 ⋅⋅*Creditos
 
 
