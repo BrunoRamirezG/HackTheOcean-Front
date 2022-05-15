@@ -1,0 +1,19 @@
+{
+  "name": "hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
