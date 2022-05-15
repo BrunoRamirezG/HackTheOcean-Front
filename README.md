@@ -22,21 +22,16 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 
 ---
 ##### Tabla de contenidos
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
 
-Markup :
-        * Tecnologias usadas
+- Tecnologias usadas
 
-        * Bases de infromación 
+- Bases de infromación 
 
-        * Como instalar 
+- Como instalar 
 
-         * Como usar
+- Como usar
 
-         - Creditos
+- Creditos
 
 
 
