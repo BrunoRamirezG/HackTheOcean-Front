@@ -28,8 +28,8 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 [usar](#Como usar)  
 [creditos](#Creditos)  
 
-<a name="Tecnologias usadas"/>
-## Tecnologias usadas
+
+[tenologias]:## Tecnologias usadas
 
 <b name="Bases de infromación"/>
 ## Bases de infromación 
