@@ -21,20 +21,20 @@ sobre las especies en centros de investigación regionales hasta la construcció
 En este sitio se encuentra la información más relevante que se ha generado en estas bases de información que son útiles para los consumidores.
 
 ---
-Tabla de contenidos
-
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
+##### Tabla de contenidos
+ 
+[Como instalar y correr](#Como instalar y correr)  
+[Como usar](#Como usar)  
+[Creditos](#Creditos)  
 ...snip...    
-<a name="headers"/>
-## Headers
+<a name="Como instalar y correr"/>
+## Como instalar y correr
 
-Como instalar y correr
+<a name="Como usar"/>
+## Como usar
 
-Como usar
-
-Creditos
+<a name="Creditos"/>
+## Creditos
 
 Daniel
 Gil
