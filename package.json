@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha",
+    "test": "echo \"No test specified\"",
     "start": "node server.js"
   },
   "author": "",
