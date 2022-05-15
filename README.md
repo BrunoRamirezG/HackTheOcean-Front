@@ -22,7 +22,7 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 
 ---
 ##### Tabla de contenidos
-[tenologias](#Tecnologias usadas) 
+[tenologias][Tecnologias usadas] 
 [informacion](#Bases de infromación) 
 [instalar](#Como instalar)  
 [usar](#Como usar)  
