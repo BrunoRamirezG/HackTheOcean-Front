@@ -3,7 +3,7 @@ const express = require('express');
 var cors = require('cors');
 const path = require('path');
 const app = express()
-const port = 3000
+const port = 8080
 
 var conn=mysql.createConnection({host:"hackocean.mysql.database.azure.com", user:"daniel", password:"password1.0", database:"oceanhack", port:3306});
 
