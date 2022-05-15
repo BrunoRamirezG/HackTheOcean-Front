@@ -22,18 +22,25 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 
 ---
 ##### Tabla de contenidos
- 
-[instalar](#Como instalar y correr)  
+[tenologias](#Tecnologias usadas) 
+[informacion](#Bases de infromación) 
+[instalar](#Como instalar)  
 [usar](#Como usar)  
 [creditos](#Creditos)  
-    
-<a name="instalar"/>
-## Como instalar y correr
 
-<a name="usar"/>
+<a name="Tecnologias usadas"/>
+## Tecnologias usadas
+
+<b name="Bases de infromación"/>
+## Bases de infromación 
+    
+<c name="instalar"/>
+## Como instalar 
+
+<d name="usar"/>
 ## Como usar
 
-<a name="creditos"/>
+<e name="creditos"/>
 ## Creditos
 
 Daniel
