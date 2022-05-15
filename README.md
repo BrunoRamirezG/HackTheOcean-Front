@@ -23,17 +23,17 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 ---
 ##### Tabla de contenidos
  
-[Como instalar y correr](#Como instalar y correr)  
-[Como usar](#Como usar)  
-[Creditos](#Creditos)  
+[instalar](#Como instalar y correr)  
+[usar](#Como usar)  
+[creditos](#Creditos)  
 ...snip...    
-<a name="Como instalar y correr"/>
+<a name="instalar"/>
 ## Como instalar y correr
 
-<a name="Como usar"/>
+<a name="usar"/>
 ## Como usar
 
-<a name="Creditos"/>
+<a name="creditos"/>
 ## Creditos
 
 Daniel
