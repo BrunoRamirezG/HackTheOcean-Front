@@ -1,5 +1,5 @@
 # Opochtli 
-Opochtli en Nahuatl es referida como la deidad Mexica asociada a la protección de los pescadores y la caza. 
+### *_Opochtli en Nahuatl es referida como la deidad Mexica asociada a la protección de los pescadores y la caza._* 
   
 El proyecto Opochtli fue desarrollado para Hack The Ocean 2022 entre el 13 y 15 de Mayo de 2022, propone una solución cuidado y preservación. 
 mediante un sitio de información interactivo sobre el consumo y producción de 12 especies marinas en México. Se proporciona un semáforo de 
@@ -19,6 +19,20 @@ obteniendo recomendaciones de salud, de conservación y las diferentes propuesta
 Este sitio completa la cadena de producción de investigación científica y técnica que se desarrolla en nuestro país, desde las investigaciones
 sobre las especies en centros de investigación regionales hasta la construcción de bases de información que se encuentran atreves de CONABIO y CONACyT.
 En este sitio se encuentra la información más relevante que se ha generado en estas bases de información que son útiles para los consumidores.
+
+Tabla de contenidos
+
+Como instalar y correr
+
+Como usar
+
+Creditos
+
+Daniel
+Gil
+Sergio
+Fernando
+Jesus
 
 
   
