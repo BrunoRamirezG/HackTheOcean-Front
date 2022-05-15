@@ -5,6 +5,8 @@ El proyecto Opochtli fue desarrollado para Hack The Ocean 2022 entre el 13 y 15 
 mediante un sitio de información interactivo sobre el consumo y producción de 12 especies marinas en México. Se proporciona un semáforo de 
 recomendación de consumo el cual toma en cuenta la huella ecológica, el estado de las poblaciones, el riesgo de la especie, el tiempo de veda 
 y el tipo de captura, con datos recogidos de https://enciclovida.mx/ 
+
+![This is an image](https://drive.google.com/file/d/1gyIZVFtP-X9gHEJRpn-G1lD4PyT06FPL/view?usp=sharing)
   
 Incluye información sobre el cultivo, conservación, pesca, distribución de poblaciones, importancia y consumo de las especies.
   
