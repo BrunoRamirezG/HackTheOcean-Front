@@ -1,0 +1,168 @@
+CREATE DATABASE oceanhack;
+USE oceanhack;
+-- Estructura de tabla para la tabla `especies`
+--
+
+CREATE TABLE `especies` (
+  `id_especie` int(10) NOT NULL,
+  `nombre_especie` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `especies`
+--
+
+INSERT INTO `especies` (`id_especie`, `nombre_especie`) VALUES
+(1, 'JAIBA AZUL'),
+(2, 'JAIBA VERDE'),
+(3, 'CAMARON BLANCO'),
+(4, 'CAMARON CAFE'),
+(5, 'CAMARON AZUL'),
+(6, 'PULPO VERDE'),
+(7, 'ATUN ALETA AMARILLA'),
+(8, 'ROBALO PLATEADO'),
+(9, 'OSTION DEL ATLANTICO');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `espregprod`
+--
+
+CREATE TABLE `espregprod` (
+  `id` int(10) NOT NULL,
+  `id_especie` int(10) NOT NULL,
+  `id_region` int(10) NOT NULL,
+  `id_produccion` int(10) NOT NULL,
+  `es_muy_comercializada` tinyint(1) NOT NULL,
+  `es_endemica` tinyint(1) NOT NULL,
+  `es_amenazada` tinyint(1) NOT NULL,
+  `fecha_inicio_veda` date DEFAULT NULL,
+  `fecha_fin_veda` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `espregprod`
+--
+
+INSERT INTO `espregprod` (`id`, `id_especie`, `id_region`, `id_produccion`, `es_muy_comercializada`, `es_endemica`, `es_amenazada`, `fecha_inicio_veda`, `fecha_fin_veda`) VALUES
+(1, 1, 1, 3, 1, 0, 0, '2022-05-01', '2022-07-09'),
+(2, 2, 1, 3, 1, 0, 0, '2022-05-01', '2022-07-09'),
+(3, 3, 1, 3, 1, 0, 0, NULL, NULL),
+(4, 4, 1, 3, 1, 0, 0, '2022-03-01', '2022-09-30'),
+(5, 5, 1, 2, 1, 1, 1, NULL, NULL),
+(6, 6, 2, 2, 1, 1, 1, '2022-09-01', '2022-11-30'),
+(7, 7, 1, 3, 1, 1, 1, '2022-07-29', '2022-10-08'),
+(8, 8, 2, 2, 1, 0, 0, NULL, NULL),
+(9, 9, 2, 2, 1, 1, 1, NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `producciones`
+--
+
+CREATE TABLE `producciones` (
+  `id_produccion` int(10) NOT NULL,
+  `nombre_produccion` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `producciones`
+--
+
+INSERT INTO `producciones` (`id_produccion`, `nombre_produccion`) VALUES
+(1, 'piscicultura'),
+(2, 'acuacultura'),
+(3, 'Sin Dato');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `regiones`
+--
+
+CREATE TABLE `regiones` (
+  `id_region` int(10) NOT NULL,
+  `nombre_region` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `regiones`
+--
+
+INSERT INTO `regiones` (`id_region`, `nombre_region`) VALUES
+(1, 'PACIFICO SUR (OAXACA Y GUERRERO)'),
+(2, 'CARIBE Y GOLFO DE MEXICO (YUCATAN)');
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `especies`
+--
+ALTER TABLE `especies`
+  ADD PRIMARY KEY (`id_especie`);
+
+--
+-- Indices de la tabla `espregprod`
+--
+ALTER TABLE `espregprod`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `fk_id_especie` (`id_especie`),
+  ADD KEY `fk_id_region` (`id_region`),
+  ADD KEY `fk_id_produccion` (`id_produccion`);
+
+--
+-- Indices de la tabla `producciones`
+--
+ALTER TABLE `producciones`
+  ADD PRIMARY KEY (`id_produccion`);
+
+--
+-- Indices de la tabla `regiones`
+--
+ALTER TABLE `regiones`
+  ADD PRIMARY KEY (`id_region`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `especies`
+--
+ALTER TABLE `especies`
+  MODIFY `id_especie` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT de la tabla `espregprod`
+--
+ALTER TABLE `espregprod`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT de la tabla `producciones`
+--
+ALTER TABLE `producciones`
+  MODIFY `id_produccion` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT de la tabla `regiones`
+--
+ALTER TABLE `regiones`
+  MODIFY `id_region` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `espregprod`
+--
+ALTER TABLE `espregprod`
+  ADD CONSTRAINT `fk_id_especie` FOREIGN KEY (`id_especie`) REFERENCES `especies` (`id_especie`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `fk_id_produccion` FOREIGN KEY (`id_produccion`) REFERENCES `producciones` (`id_produccion`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `fk_id_region` FOREIGN KEY (`id_region`) REFERENCES `regiones` (`id_region`) ON DELETE CASCADE ON UPDATE CASCADE;
+COMMIT;
