@@ -26,7 +26,7 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 [instalar](#Como instalar y correr)  
 [usar](#Como usar)  
 [creditos](#Creditos)  
-...snip...    
+    
 <a name="instalar"/>
 ## Como instalar y correr
 
