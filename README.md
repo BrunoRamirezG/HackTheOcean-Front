@@ -22,6 +22,11 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 
 ---
 ##### Tabla de contenidos
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
+
 Markup :
         * Tecnologias usadas
 
