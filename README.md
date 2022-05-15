@@ -32,24 +32,37 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 <a name="tenologias"/>
 
 ## Tecnologias usadas
+Las tecnologías utilizadas fueron: 
+<ul>
+  <li>MySQL para la base de datos</li>
+  <li>NodeJS para el servidor y API's</li>
+  <li>Azure para el despliegue y la base de datos</li>
+  <li>HTML, CSS, JavaScript para el FrontEnd</li>
+  <li>CI/CD con GitHub y Azure</li>
+  <li>GitHub para el código fuente</li>
+</ul>
 
 <b name="informacion"/>
 ## Bases de infromación 
     
 <c name="instalar"/>
-## Como instalar 
+
+## Como acceder
+Para poder acceder al website por favor ir a <a href="https://hackocean.azurewebsites.net">https://hackocean.azurewebsites.net</a>
 
 <d name="usar"/>
 ## Como usar
 
 <e name="creditos"/>
-## Creditos
 
-Daniel
-Gil
-Sergio
-Fernando
-Jesus
+## Creditos
+<ul>
+  <li>Daniel</li>
+  <li>Gil</li>
+  <li>Sergio</li>
+  <li>Fernando</li>
+  <li>Jesús</li>
+</ul
 
 
 ##### Table of Contents  
