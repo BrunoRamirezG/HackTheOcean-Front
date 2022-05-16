@@ -42,6 +42,10 @@ En este sitio se encuentra la información más relevante que se ha generado en 
 
 ### Frontend
 
+- Frontend
+  - Para el frontend se utilizo HTML, CSS, JS:
+  ![image](https://user-images.githubusercontent.com/53630621/168510418-a36490be-8718-4ca7-8c70-a79c76bc8cdd.png)
+
 ### Backend
 
 - Backend
@@ -82,6 +86,7 @@ Se usaron bases de información abiertas de la Comisión Nacional para el Conoci
 
 ## Como usar
 
+Ve al enlace siguiente: <a href="https://hackocean.azurewebsites.net/">https://hackocean.azurewebsites.net/</a>
 
 ## Creditos
 
