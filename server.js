@@ -23,6 +23,14 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
+app.get('/zgolfo', function(req, res) {
+  res.sendFile(path.join(__dirname, '/public/zgolfo.html'));
+});
+
+app.get('/zpacifico', function(req, res) {
+  res.sendFile(path.join(__dirname, '/public/zpacifico.html'));
+});
+
 app.get('/region1', (req, res) => {
   //res.send('Hello World!')
   conn.query(`SELECT es.nombre_especie, e.es_endemica, e.es_amenazada, e.fecha_inicio_veda, fecha_fin_veda FROM espregprod as e, especies as es WHERE e.id_especie=es.id_especie AND id_region='1';`, function (err, result) {
