@@ -198,7 +198,7 @@
     <script>
         const getData1 = async function(){
             let tabla = document.getElementById("region1");
-            const response = await fetch('http://localhost:3000/region1');
+            const response = await fetch('http://localhost:8080/region1');
             const data = await response.json();
             for (const iterator of data) {
                 let fecha_inicio_veda = iterator.fecha_inicio_veda;
