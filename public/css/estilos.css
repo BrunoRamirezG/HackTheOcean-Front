@@ -41,6 +41,30 @@ body {
     z-index: -1;
 }
 
+.hero__header {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+
+.hero__header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/pez-paci.jpg');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
 
 /* Nav */
 
@@ -117,27 +141,38 @@ body {
     justify-self: center;
     color: #fff;
     text-decoration: none;
-    padding: 26px 30px;
+    padding: 13px 30px;
     border-radius: 32px;
 
 }
 
+.section__map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+    position: relative;
+    z-index: 100;
+}
+
+.section__map--img{
+    /* padding: 1rem 10%; */
+    margin: 1rem;
+    max-width: 100%;
+}
+
+
 .mega-container{
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     margin: 5rem;
-
 }
 
 
 
 .about__div{
-
     align-items: center;
-
 }
 
 /* About */
@@ -155,6 +190,30 @@ body {
 
 .about__paragraph {
     line-height: 1.7;
+}
+
+.about__paragraph--P{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1px;
+}
+
+.container__p--about{
+    margin: auto;
+    font-size: 1.2rem;
+    justify-content: left;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
 }
 
 .about__main {
@@ -192,9 +251,9 @@ body {
 }
 
 .knowledge__container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 1em;
+    text-align: center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -210,7 +269,13 @@ body {
 .knowledge__img{
     width: 100%;
     display: block;
-    border-radius: 45px;
+}
+
+.table{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    /* align-items: center; */
 }
 
 /* price */
@@ -229,35 +294,22 @@ body {
 }
 
 .price__element{
-    background-color: #cf260f;
+    background-color: #e5e5f7;
     text-align: center;
     border-radius: 10px;
     width: 330px;
     padding: 40px;
-    --color-plan: #f5f5f5;
-    --color-price: #f8f8f8;
+    --color-plan: #696871;
+    --color-price: #1D293F;
     --bg-cta: #fff;
     --color-cta: #5454D4;
-    --color-items: #e9e8ec;
-}
-
-.price__element1{
-    background-color: #4ccf0f;
-    text-align: center;
-    border-radius: 10px;
-    width: 330px;
-    padding: 40px;
-    --color-plan: #f5f5f5;
-    --color-price: #f8f8f8;
-    --bg-cta: #fff;
-    --color-cta: #5454D4;
-    --color-items: #e9e8ec;
+    --color-items: #696871;
 }
 
 .price__element--best{
     width: 370px;
     padding: 60px 40px;
-    background-color: #e9b50a;
+    background-color: #FF7143;
     --color-plan: rgb(255 255 255 / 75%);
     --color-price: #fff;
     --bg-cta: #9F3919;
@@ -284,7 +336,7 @@ body {
     font-weight: 300;
     font-size: 1.2rem;
     margin-bottom: 50px;
-    color: var(--color-items);
+    color: var(--color-items); 
 }
 
 .price__cta{
@@ -299,6 +351,14 @@ body {
 }
 
 /* Testimony */
+
+.testimony__h2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
 
 .testimony{
     background-color: #e4e4eb;
