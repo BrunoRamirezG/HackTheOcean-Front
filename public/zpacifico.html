@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opochtli</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+
+    <header class="hero__header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Opochtli</h2>
+            </div>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Región Pacífico</h1>
+            <p class="hero__paragraph">La Región Pacífico en México está conformada por 11 estados que tienen costa en el océano del mismo nombre, siendo estos 
+                los siguientes Baja California, Baja California Sur, Sonora, Sinaloa, Jalisco, Nayarit, Colima, Michoacán, Guerrero, Oaxaca y Chiapas. <br><br>
+                
+                El océano pacifico esta conformado por 7,828 km de litorales insulares, posee una anchura de 12 millas náuticas que representan el 68% 
+                del litoral continental.<br><br>
+
+                Los océanos son los grandes productores del planeta, su microscópica flora provee el 90% del ocigeno que existe en la atmosfera.
+            </p>
+            
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle"></h2>
+            <p class="about__paragraph--P">DISTRIBUCIÓN DE LA REGIÓN PACÍFICO</p>
+            <div class="about__container">
+                <figure class="section__map">
+                    <img src="./images/rpacifico.png" class="section__map--img">
+                </figure>
+                <p class="container__p--about">En el pacifico se encuentran 6 reservas de la biósfera, tres parques nacionales. Habitan en el pacifico especies como la estrella espinosa roja, 
+                    la morena verde, el erizo corona, la vaquita marina que es endémica de una pequeña región del norte de golfo de california, caracol purpura, 
+                    medusa gigante, mantarraya gigante, pájaro bobo de patas azules, cangrejo rojo de roca, ballena azul, plancton, tortuga carey, balllena jorobada.
+    </p>
+
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div>
+                    <h2 class="subtitle">Información de la Región Pacífico</h2>
+                    <table class="table" id="region1">
+                        <tr>
+                            <th>  Nombre de la especie  </th>
+                            <th>  ¿Es endémica?  </th>
+                            <th>  ¿Es amenazada?  </th>
+                            <th>  Inicio de la veda  </th>
+                            <th>  Fin de la veda  </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <h2 class="testimony__h2"><i>Sabías que ...</i></h2>
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Pulpo <span class="testimony__course">verde
+                                </span></h2>
+                        <p class="testimony__review">En el Centro Regional de Investigación Pesquera (CRIP) Manzanillo 
+                            realizan investigación para conocer el crecimiento y reproducción del pulpo verde (<i>Octopus hubbsorum</i>) 
+                            en condiciones de cautiverio. Se encontró que en dos diferentes periodos de tiempo las especies habían 
+                            crecido en longitud. Debido a las variaciones en cuanto a calidad de agua y temperatura. <br> <br>
+
+                            Se les alimenta con jaibas vivasen los tanques donde están distribuidas los 50 ejemplares. 
+                            Se espera tener resultados alentadores para la reproducción de esta especie 
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/pulpo.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mejillón <span class="testimony__course">azul
+                                </span></h2>
+                        <p class="testimony__review">El mejillón azul (<i>Mytilus edulis</i>) filtra el agua de partículas 
+                            de alimentos y micro plásticos así como de sedimentos, microalgas y bacterias. Las ostras pueden filtrar 
+                            hasta 200 litros de agua al día. Son susceptibles a portar enfermedades. <br> <br>
+                            
+                            Es de cultivo intensivo principalmente en baja california norte, principalmente acuícola.
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/mejillon.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Jaiba <span class="testimony__course">azul
+                        </span></h2>
+                        <p class="testimony__review">La jaiba (<i>Callinectes sapidus</i>) es un crustáceo decápodo nativo de 
+                            la costa occidental del océano Atlántico. Su cuerpo está cubierto de un exoesqueleto color verde oscuro. <br> <br>
+
+                            Como el resto de los crustáceos, son ovíparos. Se reproducen en aguas próximas a las costas, en primavera y verano. 
+                            Se calcula que la fecundidad de una hembra de tamaño promedio es de 700,000 a 2'000,000 de huevos.
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/jaiba.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Opochtli</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Opochtli 2022</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+    <script>
+        const getData1 = async function(){
+            let tabla = document.getElementById("region1");
+            const response = await fetch('http://localhost:3000/region1');
+            const data = await response.json();
+            for (const iterator of data) {
+                let fecha_inicio_veda = iterator.fecha_inicio_veda;
+                let fecha_fin_veda = iterator.fecha_fin_veda;
+                let es_endemica = iterator.es_endemica;
+                let es_amenazada = iterator.es_endemica;
+                if(fecha_inicio_veda == null) fecha_inicio_veda = '-';
+                if(fecha_fin_veda == null) fecha_fin_veda = '-';
+                if(es_endemica == '0') es_endemica = 'No' 
+                else es_endemica='Si';
+                if(es_amenazada == '0') es_amenazada = 'No' 
+                else es_amenazada='Si';
+                tabla.innerHTML+=`
+                <tr>
+                    <td>${iterator.nombre_especie}</td>
+                    <td>${es_endemica}</td>
+                    <td>${es_amenazada}</td>
+                    <td>${fecha_inicio_veda.substring(0,10)}</td>
+                    <td>${fecha_fin_veda.substring(0,10)}</td>    
+                </tr>
+                `;
+            }
+        }
+        // const getData2 = async function(){
+        //     let tabla = document.getElementById("region2");
+        //     const response = await fetch('http://localhost:3000/region2');
+        //     const data = await response.json();
+        //     for (const iterator of data) {
+        //         let fecha_inicio_veda = iterator.fecha_inicio_veda;
+        //         let fecha_fin_veda = iterator.fecha_fin_veda;
+        //         let es_endemica = iterator.es_endemica;
+        //         let es_amenazada = iterator.es_endemica;
+        //         if(fecha_inicio_veda == null) fecha_inicio_veda = '-';
+        //         if(fecha_fin_veda == null) fecha_fin_veda = '-';
+        //         if(es_endemica == '0') es_endemica = 'No' 
+        //         else es_endemica='Si';
+        //         if(es_amenazada == '0') es_amenazada = 'No' 
+        //         else es_amenazada='Si';
+        //         tabla.innerHTML+=`
+        //         <tr>
+        //             <td>${iterator.nombre_especie}</td>
+        //             <td>${es_endemica}</td>
+        //             <td>${es_amenazada}</td>
+        //             <td>${fecha_inicio_veda.substring(0,10)}</td>
+        //             <td>${fecha_fin_veda.substring(0,10)}</td>    
+        //         </tr>
+        //         `;
+        //     }
+        // }
+        window.onload = ()=>{
+            getData1();
+            // getData2();
+        };
+    </script>
+</body>
+
+</html>
